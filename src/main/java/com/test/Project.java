@@ -4,15 +4,18 @@ import org.apache.commons.collections.Predicate;
 import org.apache.log4j.Logger;
 //Project "Hello, MNT"
 class Project {
-
+//Project "Hello, MNT"
+ //Project "Hello, MNT"
+ //Project "Hello, MNT"
+ //Project "Hello, MNT"
+ //Project "Hello, MNT"
+ //Project "Hello, MNT"
  public String getGreeting() {
         return "Hello, MNT Lab!";
     }
 
   public static void test() {
     System.out.println("test");
-   System.out.println("test");
-   System.out.println("test");
   }
 
   public static void main(String[] args) {
