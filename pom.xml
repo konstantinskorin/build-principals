@@ -30,7 +30,7 @@
 <distributionManagement>
       <snapshotRepository>
         <id>nexus</id>
-        <url>http://nexus/repository/maven-snapshots/</url>
+        <url>http://nexus:80/repository/maven-snapshots/</url>
       </snapshotRepository>
 </distributionManagement>
 
@@ -59,7 +59,7 @@
         <extensions>true</extensions>
         <configuration>
             <serverId>nexus</serverId>
-            <nexusUrl>http://nexus/</nexusUrl>
+            <nexusUrl>http://nexus:80/</nexusUrl>
         </configuration>
       </plugin>
    </plugins>
