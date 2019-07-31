@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mnt.training</groupId>
     <artifactId>hello-world</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>maven-first-step</name>
    <dependencies> 
@@ -30,7 +30,7 @@
 <distributionManagement>
       <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://nexus:80/repository/maven-snapshots/</url>
+        <url>http://skorin/nexus/repository/maven-snapshots/</url>
       </snapshotRepository>
 </distributionManagement>
 
@@ -59,7 +59,7 @@
         <extensions>true</extensions>
         <configuration>
             <serverId>nexus-snapshots</serverId>
-            <nexusUrl>http://nexus:80/</nexusUrl>
+            <nexusUrl>http://skorin/nexus/repository/maven-snapshots/</nexusUrl>
         </configuration>
       </plugin>
    </plugins>
